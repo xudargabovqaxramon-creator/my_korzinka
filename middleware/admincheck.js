@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken")
 
-const userscheking = (req, res, next) => {
+const admincheking = (req, res, next) => {
     try {
       const bearerToken = req.headers.authorization
         
@@ -26,9 +26,9 @@ const userscheking = (req, res, next) => {
 
       const decode = jwt.verify(token[1],process.env.SECRETKY)
 
-     if (decode.role !== "admin" ) {
+     if (decode.role !== "superadmin") {
       return res.status(403).json({
-        message : " You are not admin"
+        message : " You are not superadmin"
       })
      }
       
@@ -41,4 +41,4 @@ const userscheking = (req, res, next) => {
 }
 
 
-module.exports = userscheking
+module.exports = admincheking

@@ -1,8 +1,16 @@
 [
     {
-        "id": "473af3f7-3178-46df-8917-f8b740e4b883",
-        "username": "kaxa",
-        "email": "xudarganov@gmail.com",
-        "password": "$2b$12$bke9yb0AvYq.EpxdUGMpLefDlMc5kUY6H7iZKRoY5l30lj6.17N2a"
+        "id": "1bf66666-8b12-48e2-9055-25665fa1c529",
+        "username": "kaa",
+        "email": "xudarganov@gmail.co",
+        "role": "superadmin",
+        "password": "$2b$12$O7Sgh8iehIJAUvknSLqoM.COt17QDahFph9QSv8bB44jxpltAsqu2"
+    },
+    {
+        "id": "6b296c25-42e0-46f0-b434-3481eb9464dd",
+        "username": "janob hech kim",
+        "email": "xudarganov@",
+        "role": "admin",
+        "password": "$2b$12$n7yJbl1oz2bgBV4IoaRb3.NzKQYKH4aQ1Ug96IVRnhco9mp0xrUP6"
     }
 ]

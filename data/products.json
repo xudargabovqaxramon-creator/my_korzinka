@@ -1,3 +1,12 @@
 [
-    
+    {
+        "id": "8be4b87b-1f1d-480d-b7db-3bd111bb1a52",
+        "name": "hhh",
+        "price": 67789
+    },
+    {
+        "id": "e919bbb3-2b57-46f2-9794-6ff9904f4c06",
+        "name": "banana",
+        "price": 122
+    }
 ]
