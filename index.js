@@ -12,6 +12,11 @@ k_app.use(cors())
 k_app.use(express.json())
 const PORT = process.env.PORT  || 3000
 
+k_app.get("/", (req, res) => {
+    res.status(200).json({
+        message : " salom ustoz"
+    })
+})
 
 
 // Routers
